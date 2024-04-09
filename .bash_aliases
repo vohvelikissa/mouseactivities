@@ -1,4 +1,5 @@
 mouse-on() {
+	xdotool mousemove 600 600
 	xinput set-prop 12 "Device Enabled" 1
 }
 mouse-off() {
